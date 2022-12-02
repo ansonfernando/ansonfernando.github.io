@@ -1,0 +1,390 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-top: 26px;
+}
+a:hover{
+    color: yellow;
+}
+@font-face {
+    font-family: lb;
+    src: url(LEMONMILK-Bold.otf);
+}
+.Anson {
+    font-size: 30px;
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Anson .title h1{
+    font-size: 90px;
+    font-family: 'lb';
+    margin: 0;
+}
+
+.Anson .title h2 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'lb';
+    margin: 0;
+}
+
+.Anson .title h3{
+    font-size: 38px;
+    font-family: 'lb';
+}
+
+.en img {
+    height: 100vh;
+}
+
+.Anson .tombol {
+    border-radius: 12px;
+    transition: 0.5s;
+    background-color: #F4BE2F;
+    border-color: white;
+    color: white;
+    height: 45px;
+    width: 100px;
+    font-size: large;
+    font-family: 'lb';
+}
+
+.son {
+    display: flex;
+    background-color: #DADADA;
+}
+/*Section2*/
+.an {
+    background-color: #DADADA;
+}
+.gambar img {
+    display: flex;
+    padding-right: 100px;
+    height: 70vh;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.son h1 {
+    font-size: 90px;
+    padding-top: 0;
+    margin: 0;
+    font-family: 'lb';
+}
+
+.son p {
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+.an .menu {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #F4BE2F;
+    border-radius: 100px;
+    background-color: #F4BE2F;
+    height: 390px;
+    width: 256px;
+    font-family: 'lb';
+}
+.an .menu a{
+    padding-top: 26px;
+}
+
+.an {
+    display: flex;
+    padding: 54px 100px;
+}
+.an h1{
+    font-size: 20px;
+    font-size: 15px;
+    border: 2px solid #F4BE2F;
+    border-radius: 50px;
+    background-color: #F4BE2F;
+    height: 3vh;
+    padding: 1rem;
+    margin-left:2%;
+    font-weight: bolder;
+    font-family: 'lb';
+    transform: scale(1.2);
+    width: fit-content;
+}
+.logo {
+    margin: 0 71px;
+}
+.logo img {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    display: flex;
+    margin: 14px 0;
+}
+
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin: 14px 0 ;
+    justify-content: center;
+    display: flex;
+}
+
+.soft {
+    display: flex;
+    align-items: center;
+}
+
+.logo .border {
+    border: 1px solid #F4BE2F;
+    background-color: #F4BE2F;
+    margin: 0 14px;
+}
+
+.border {
+    border-radius: 20px;
+    height: 20px;
+    width: 300px;
+}
+/*End Section2*/
+/*Section3*/
+.picture img {
+    display: flex;
+    padding-right: 100px;
+    height: 70vh;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.sn {
+    background-color: #B9B9B9;
+}
+.sn .h{
+    display: flex;
+    justify-content: center;
+}
+
+.h h1 {
+    display: flex;
+    font-size: 90px;
+    font-family: 'lb'   ;
+    padding-top: 0;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.sn .judul {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #F4BE2F;
+    border-radius: 100px;
+    background-color: #F4BE2F;
+    height: 390px;
+    width: 256px;
+    font-family: 'lb';
+}
+
+.exp h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+.bungkus2 h1 {
+    display: block;
+    width: fit-content;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'lb';
+    background-color: orange;
+}
+.bungkus1 {
+    display: grid;
+    justify-content: space-evenly;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+    padding: 47px 100px;
+    max-width: 50%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: ;
+}
+
+h2 {
+    display: block;
+    width: fit-content;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'lb';
+    background-color: orange;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*End Section3*/
+/*section4*/
+.picture img {
+    display: flex;
+    padding-right: 100px;
+    height: 70vh;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.sn .h{
+    display: flex;
+    justify-content: center;
+}
+
+.h h1 {
+    display: flex;
+    font-size: 90px;
+    font-family: 'lb'   ;
+    padding-top: 0;
+    margin: 0;
+}
+
+.sn .judul {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #F4BE2F;
+    border-radius: 100px;
+    background-color: #F4BE2F;
+    height: 390px;
+    width: 256px;
+    font-family: 'lb';
+}
+
+
+/* my project */
+.j {
+    background-color: #9F9B9B;
+}
+.e{
+    display: flex;
+    justify-content: center;
+}
+.e h1{
+    padding-left: 114px;
+    font-size: 90px;
+    padding-top: 0;
+    margin: 0;
+    font-family: lb;
+}
+.nes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 100px;
+}
+q   a
+.nes .dul {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #F4BE2F;
+    border-radius: 100px;
+    background-color: #F4BE2F;
+    height: 390px;
+    width: 256px;
+    font-family: 'lb';
+}
+.nes .mg{
+    place-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 94px;
+}
+.nes .mg img{
+    width: 190px;
+    height: 205px;
+}
+/* contact */
+
+.k{
+    display: flex;
+    justify-content: center;
+}
+.k h1{
+    font-size: 90px;
+    padding-top: 0;
+    margin: 0;
+    font-family: lb;
+}
+.nest{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 54px 100px;
+    max-width: max-content;
+}
+.nest .dul{
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #F4BE2F;
+    border-radius: 100px;
+    background-color: #F4BE2F;
+    height: 390px;
+    width: 256px;
+    font-family: 'lb';
+}
+.nest .media {
+    place-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.nest .media img{
+    height: 91px;
+    width: 91px;
+    display: grid;
+}
+.nest .media .sosmed{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: min-content;
+}
+.nest .media .sosmed.WA p{
+    width: max-content;
+}
+.nest .media .lokasi p{
+    display: block;
+    margin-block: 1em;
+    margin-inline: 0px;
+    width: max-content;
+}
+.o {
+    background-color: #646464;
+}
+
